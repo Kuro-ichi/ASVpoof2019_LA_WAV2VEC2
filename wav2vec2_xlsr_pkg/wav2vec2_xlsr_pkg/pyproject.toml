@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wav2vec2_xlsr"
+version = "0.1.0"
+description = "Wav2Vec2 XLS-R CTC training scaffold"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Your Name"}]
+dependencies = []
+
+[project.scripts]
+w2v2-train = "wav2vec2_xlsr.engine.trainer:main"
+w2v2-eval = "wav2vec2_xlsr.engine.evaluator:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

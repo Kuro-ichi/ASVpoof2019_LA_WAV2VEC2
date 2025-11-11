@@ -1,0 +1,11 @@
+jupyter
+numpy
+pandas
+torch
+torchaudio
+transformers
+datasets
+tqdm
+jiwer
+soundfile
+pyyaml
